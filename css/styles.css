@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
-@import "status-bar.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+
+/* Screens */
+@import "screens/login.css"
+
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -19,6 +26,7 @@ body {
   font-size: 25px;
 }
 .welcome-header__text {
-  width: 60%;
+  width: 65%;
+  <<!--원래 60이었는데 인터페이스 글자 크기 이유로 수정함-->>
   opacity: 0.7;
 }

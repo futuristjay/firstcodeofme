@@ -17,7 +17,8 @@
                <span>18:43</span>
            </div>
            <div class="status-bar__column">
-               <span>110%</span>
+               <span>100%</span>
+               <!--내맘대로 110에서 100으로 고침 ㅋㅋ-->
                <i class="fas fa-battery-full fa-lg"></i>
                <i class="fas fa-bolt"></i>
            </div>
@@ -28,10 +29,10 @@
         <p class="welcome-header__text">코코아톡 계정이 있다면, e-mail이나 휴대폰 번호로 로그인 해주세요. 처음이라 안되는게 많네요 ㅋㅋㅋ </p>
     </header>
 
-<form id="login-form">
-    <input type="text" placeholder="Email or Phone number" />
-    <input type="password" placeholder="password" />
-    <input type="submit" value="log in"
+<form action="friends.html" method="GET" id="login-form">
+    <input name="username" type="text" placeholder="Email or Phone number" />
+    <input name="passworrd" type="password" placeholder="password" />
+    <input type="submit" value="log in" />
     <a href="#"> Find Kokoa Account or Password </a>
 </form>
 
