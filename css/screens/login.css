@@ -1,3 +1,21 @@
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.welcome-header__text {
+  width: 65%;
+  <<!--원래 60이었는데 인터페이스 글자 크기 이유로 수정함-->>
+  opacity: 0.7;
+}
+
 .status-bar {
   position: fixed;
   top: 0;
