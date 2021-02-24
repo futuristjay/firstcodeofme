@@ -1,0 +1,23 @@
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.newthing-badge {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  display: flex;
+}
+<!--숙제 right,top 미기재가 오류였던 원인 ?-->
